@@ -6,27 +6,27 @@
 // Решение для М вводимого пользователем:
 
 Console.WriteLine("Сколько чисел вы хотите ввести?");
-int lot = Convert.ToInt32 (Console.ReadLine());
-int j=0;
+int lot = Convert.ToInt32(Console.ReadLine());
+int j = 0;
 for (int i = 0; i < lot; i++)
 {
   Console.WriteLine("Введите число:");
-int number = Convert.ToInt32 (Console.ReadLine());
-if(number > 0) j++;  
+  int number = Convert.ToInt32(Console.ReadLine());
+  if (number > 0) j++;
 }
-Console.WriteLine("Положительных чисел: "+j);
+Console.WriteLine("Положительных чисел: " + j);
 
 // Решение для плавающего М:
 
 // string next = "y";
-// int i=0;
-// while(next.ToLower() == "y")
+// int i = 0;
+// while (next.ToLower() == "y")
 // {
-// Console.WriteLine("Введите число:");
-// int number = Convert.ToInt32 (Console.ReadLine());
-// if(number > 0) i++;
-// Console.WriteLine("Продолжить ввод? (Y - да, любой символ - нет)");
-// next = Console.ReadLine();
+//   Console.WriteLine("Введите число:");
+//   int number = Convert.ToInt32(Console.ReadLine());
+//   if (number > 0) i++;
+//   Console.WriteLine("Продолжить ввод? (Y - да, любой символ - нет)");
+//   next = Console.ReadLine();
 // }
 
-// Console.WriteLine(" Положительных чисел: "+i);
+// Console.WriteLine(" Положительных чисел: " + i);
