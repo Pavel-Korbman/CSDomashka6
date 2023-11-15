@@ -14,7 +14,9 @@ for (int i = 0; i < lot; i++)
 int number = Convert.ToInt32 (Console.ReadLine());
 if(number > 0) j++;  
 }
-Console.WriteLine(j+" Положительных чисел");
+Console.WriteLine("Положительных чисел: "+j);
+
+// Решение для плавающего М:
 
 // string next = "y";
 // int i=0;
@@ -27,4 +29,4 @@ Console.WriteLine(j+" Положительных чисел");
 // next = Console.ReadLine();
 // }
 
-// Console.WriteLine(i+" Положительных чисел");
+// Console.WriteLine(" Положительных чисел: "+i);
